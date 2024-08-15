@@ -1,202 +1,194 @@
-##喜鹊wiki、商店等##
-  - DOMAIN,probe.magpie.bond,Final
-  - DOMAIN,wiki.magpie.bond,Final
-  - DOMAIN,pan.magpie.bond,Final
-####
 ##emby规则##
 #喜鹊
-  - DOMAIN-SUFFIX,magpie.bond,DIRECT #cdn线路
-  - DOMAIN-KEYWORD,magpie,🎬 Emby
+DOMAIN-SUFFIX,magpie.bond
+DOMAIN-KEYWORD,magpie
 #PiliPili Ultra
-  - DOMAIN-KEYWORD,pilipili,🎬 Emby
+DOMAIN-SUFFIX-KEYWORD,pilipili
 #Tank
-  - DOMAIN,a.tiangou.xyz,DIRECT
+DOMAIN-SUFFIX,a.tiangou.xyz,DIRECT
 #MICU
-  - DOMAIN,tv.micu.hk,DIRECT
-  - DOMAIN,media.micu.hk,🎬 Emby
+DOMAIN-SUFFIX,tv.micu.hk,DIRECT
+DOMAIN-SUFFIX,media.micu.hk
 #GuGu
-  - DOMAIN,pro.gugu.media,DIRECT
-  - DOMAIN,main.gugu.media,🎬 Emby
+DOMAIN-SUFFIX,pro.gugu.media,DIRECT
+DOMAIN-SUFFIX,main.gugu.media
 #终点站
-  - DOMAIN-SUFFIX,emby.wtf,🎬 Emby
+DOMAIN-SUFFIX,emby.wtf
 #搬服
-  - DOMAIN-SUFFIX,955557.xyz,🎬 Emby
+DOMAIN-SUFFIX,955557.xyz
 #Peach
-  - IP-CIDR,193.123.232.141/32,DIRECT #直连推流
-  - IP-CIDR,141.147.166.107/32,🎬 Emby #挂梯推流
+IP-CIDR,193.123.232.141/32,DIRECT #直连推流
+IP-CIDR,141.147.166.107/32 #挂梯推流
 #CC
-  - DOMAIN-SUFFIX,cc.coemn.com,DIRECT
+DOMAIN-SUFFIX,cc.coemn.com,DIRECT
 #MJJ
-  - DOMAIN-SUFFIX,mjjemby.org,🎬 Emby
-  - IP-CIDR,85.239.235.232/32,🎬 Emby
+DOMAIN-SUFFIX,mjjemby.org
+IP-CIDR,85.239.235.232/32
 #好鸭卷毛鼠
-  - DOMAIN,e.niceduck.me,🎬 Emby
+DOMAIN-SUFFIX,e.niceduck.me
 #1111/垃圾影音
-  - DOMAIN,pm.xmsl.org,DIRECT #公费服前端直连
-  - DOMAIN,sbd.loseremby.org,DIRECT #公费服推流—联通4837
-  - DOMAIN,tw.loseremby.org,DIRECT #公费服推流—台湾HiNet
-  - IP-CIDR,61.171.70.126/32,DIRECT #公费服推流—上海-日本
-  - DOMAIN,free.xmsl.org,🎬 Emby #公益服前端
-  - DOMAIN,ushd.xmsl.org,🎬 Emby #公益服推流
-  - DOMAIN-SUFFIX,xmsl.org,🎬 Emby
-  - DOMAIN-SUFFIX,loseremby.org,🎬 Emby
+DOMAIN-SUFFIX,pm.xmsl.org,DIRECT #公费服前端直连
+DOMAIN-SUFFIX,sbd.loseremby.org,DIRECT #公费服推流—联通4837
+DOMAIN-SUFFIX,tw.loseremby.org,DIRECT #公费服推流—台湾HiNet
+IP-CIDR,61.171.70.126/32,DIRECT #公费服推流—上海-日本
+DOMAIN-SUFFIX,free.xmsl.org #公益服前端
+DOMAIN-SUFFIX,ushd.xmsl.org #公益服推流
+DOMAIN-SUFFIX,xmsl.org
+DOMAIN-SUFFIX,loseremby.org
 #MiSaKaF
-  - DOMAIN,embyvip.misakaf.org,DIRECT
-  - DOMAIN,emby.misakaf.org,🎬 Emby
-  - DOMAIN,stream1.misakaf.org,🎬 Emby
-  - DOMAIN,stream2.misakaf.org,🎬 Emby
-  - DOMAIN,stream3.misakaf.org,🎬 Emby
-  - DOMAIN,stream4.misakaf.org,🎬 Emby
+DOMAIN-SUFFIX,embyvip.misakaf.org,DIRECT
+DOMAIN-SUFFIX,emby.misakaf.org
+DOMAIN-SUFFIX,stream1.misakaf.org
+DOMAIN-SUFFIX,stream2.misakaf.org
+DOMAIN-SUFFIX,stream3.misakaf.org
+DOMAIN-SUFFIX,stream4.misakaf.org
 #叔服
-  - DOMAIN,jz.mcjoker.xyz,DIRECT
-  - IP-CIDR,43.229.154.66/32,DIRECT
-  - DOMAIN,emby3.mcjoker.xyz,🎬 Emby
+DOMAIN-SUFFIX,jz.mcjoker.xyz,DIRECT
+IP-CIDR,43.229.154.66/32,DIRECT
+DOMAIN-SUFFIX,emby3.mcjoker.xyz
 #红尘（OneDrive）
-  - DOMAIN,vip.reddust.link,🎬 Emby
-  - DOMAIN,new.happyav.eu.org,DIRECT
+DOMAIN-SUFFIX,vip.reddust.link
+DOMAIN-SUFFIX,new.happyav.eu.org,DIRECT
 #江湖
 
 #纸片人
-  - DOMAIN,emby.embyplus.org,🎬 Emby
-  - DOMAIN,gd.9521732.xyz,🎬 Emby
+DOMAIN-SUFFIX,emby.embyplus.org
+DOMAIN-SUFFIX,gd.9521732.xyz
 #paul_电报服
-  - DOMAIN-SUFFIX,imetyou.top,🎬 Emby
+DOMAIN-SUFFIX,imetyou.top
 #TreeDiagram
-  - DOMAIN,789.123456.al,🎬 Emby
+DOMAIN-SUFFIX,789.123456.al
 
 #Github列表
-  - DOMAIN,emby.nexitally.com,🎬 Emby
-  - DOMAIN,emby.cjpc.cc,🎬 Emby
-  - DOMAIN,emby.flowercloud.yt,🎬 Emby
-  - DOMAIN,emby.maying.club,🎬 Emby
-  - DOMAIN,emby.mdss.cloud,🎬 Emby
-  - DOMAIN,emby.ytoo.li,🎬 Emby
-  - DOMAIN,embyserver.ga,🎬 Emby
-  - DOMAIN,emby.prprcloud.com,🎬 Emby
-  - DOMAIN,emby.nyancat.net,🎬 Emby
-  - DOMAIN,emby.plusmedia.site,🎬 Emby
-  - DOMAIN,emby-cf.plusmedia.site,🎬 Emby
-  - DOMAIN,emby-sg.plusmedia.site,🎬 Emby
-  - DOMAIN,emby.xeton.dev,🎬 Emby
-  - DOMAIN,jellyfin.xeton.dev,🎬 Emby
-  - DOMAIN,movie.xeton.dev,🎬 Emby
-  - DOMAIN,servers.xeton.dev,🎬 Emby
-  - DOMAIN,emby.otakudrive.life,🎬 Emby
-  - DOMAIN,emby2.otakudrive.life,🎬 Emby
-  - DOMAIN,agahk1.jmsooo.com,🎬 Emby
-  - DOMAIN,agasg1.jmsooo.com,🎬 Emby
-  - DOMAIN,agajp1.jmsooo.com,🎬 Emby
-  - DOMAIN,aws.jmsooo.com,🎬 Emby
-  - DOMAIN,ntt1.jmsooo.com,🎬 Emby
-  - DOMAIN,hinet.jmsooo.com,🎬 Emby
-  - DOMAIN,cf1.jmsooo.com,🎬 Emby
-  - DOMAIN,pornemby.club,🎬 Emby
-  - DOMAIN,emby.immtel.com,🎬 Emby
-  - DOMAIN,cf.odysseyplus.site,🎬 Emby
-  - DOMAIN,agahk.odysseyplus.site,🎬 Emby
-  - DOMAIN,agasg.odysseyplus.site,🎬 Emby
-  - DOMAIN,ru.odysseyplus.site,🎬 Emby
-  - DOMAIN,line.emby.men,🎬 Emby
-  - DOMAIN,emby.run,🎬 Emby
-  - DOMAIN,emby.plusmedia.site,🎬 Emby
-  - DOMAIN,emby-sg.plusmedia.site,🎬 Emby
-  - DOMAIN,emby-cf.plusmedia.site,🎬 Emby
-  - DOMAIN,emby.xeton.dev,🎬 Emby
-  - DOMAIN,jellyfin.xeton.dev,🎬 Emby
-  - DOMAIN,movie.xeton.dev,🎬 Emby
-  - DOMAIN,servers.xeton.dev,🎬 Emby
-  - DOMAIN,jmsooo.com,🎬 Emby
-  - DOMAIN,cf.jmsooo.com,🎬 Emby
-  - DOMAIN,hk.jmsooo.com,🎬 Emby
-  - DOMAIN,sg.jmsooo.com,🎬 Emby
-  - DOMAIN,emby.wtf,🎬 Emby
-  - DOMAIN,pub1back.emby.wtf,🎬 Emby
-  - DOMAIN,pub2back.emby.wtf,🎬 Emby
-  - DOMAIN,pub3back.emby.wtf,🎬 Emby
-  - DOMAIN,pub1.emby.wtf,🎬 Emby
-  - DOMAIN,pub2.emby.wtf,🎬 Emby
-  - DOMAIN,pub3.emby.wtf,🎬 Emby
-  - DOMAIN,embyclub.com,🎬 Emby
-  - DOMAIN,az-hk.embyclub.com,🎬 Emby
-  - DOMAIN,azsgp.embyclub.com,🎬 Emby
-  - DOMAIN,charontv.com,🎬 Emby
-  - DOMAIN,emby.p-p.men,🎬 Emby
-  - DOMAIN,emby.aiyowei.ml,🎬 Emby
-  - DOMAIN,poloemby.xyz,🎬 Emby
-  - DOMAIN,pololine.ml,🎬 Emby
-  - DOMAIN,gfwemby.org,🎬 Emby
-  - DOMAIN,cc.ccemby.tk,🎬 Emby
-  - DOMAIN,direct.nebula-emby.com,🎬 Emby
-  - DOMAIN-SUFFIX,ccemby.tk,🎬 Emby
-  - DOMAIN-SUFFIX,embyplus.club,🎬 Emby
-  - DOMAIN-SUFFIX,speedx.one,🎬 Emby
-  - DOMAIN-SUFFIX,embymv.tk,🎬 Emby
-  - DOMAIN-SUFFIX,bddup.com,🎬 Emby
-  - DOMAIN-SUFFIX,emby.cl,🎬 Emby
-  - DOMAIN-SUFFIX,emby.ml,🎬 Emby
-  - DOMAIN-SUFFIX,nivod4.tv,🎬 Emby
-  - DOMAIN-SUFFIX,newpppp.com,🎬 Emby
-  - DOMAIN-SUFFIX,freetz.top,🎬 Emby
-  - DOMAIN-SUFFIX,newwan.top,🎬 Emby
-  - DOMAIN-SUFFIX,shuipo.lol,🎬 Emby
-  - DOMAIN-SUFFIX,dicarerhome.com,🎬 Emby
-  - DOMAIN-SUFFIX,emby77.cf,🎬 Emby
-  - IP-CIDR,188.172.228.49/32,🎬 Emby
-  - IP-CIDR,202.61.255.248/32,🎬 Emby
-  - DOMAIN-SUFFIX,embytv.cf,🎬 Emby
-  - DOMAIN-SUFFIX,zox.show,🎬 Emby
-  - DOMAIN-SUFFIX,acemby.org,🎬 Emby
-  - DOMAIN-SUFFIX,bili.rip,🎬 Emby
-  - DOMAIN-SUFFIX,ju.dog,🎬 Emby
-  - DOMAIN-SUFFIX,misty.ltd,🎬 Emby
-  - DOMAIN-SUFFIX,ednovas.org,🎬 Emby
-  - DOMAIN-SUFFIX,deja-vu.beauty,🎬 Emby
-  - DOMAIN-SUFFIX,studyfun.live,🎬 Emby
-  - DOMAIN-SUFFIX,charontv.com,🎬 Emby
-  - DOMAIN-SUFFIX,gtlx.org,🎬 Emby
-  - DOMAIN-SUFFIX,9191001.xyz,🎬 Emby
-  - DOMAIN-SUFFIX,carlos.trade,🎬 Emby
-  - DOMAIN-SUFFIX,agon.cf,🎬 Emby
-  - DOMAIN-SUFFIX,goodisp.org,🎬 Emby
-  - DOMAIN-SUFFIX,emby77.org,🎬 Emby
-  - DOMAIN-SUFFIX,mius.uk,🎬 Emby
-  - DOMAIN,emby.eu.org,🎬 Emby
-  - DOMAIN-SUFFIX,wiri.tk,🎬 Emby
-  - DOMAIN-SUFFIX,285286.xyz,🎬 Emby
-  - DOMAIN-SUFFIX,zi0.icu,🎬 Emby
-  - DOMAIN-SUFFIX,bangumi.ca,🎬 Emby
-  - DOMAIN-SUFFIX,emby.kim,🎬 Emby
-  - DOMAIN-SUFFIX,4545.cf,🎬 Emby
-  - DOMAIN-SUFFIX,ggtt.cf,🎬 Emby
-  - DOMAIN-SUFFIX,mulgore.net,🎬 Emby
-  - DOMAIN-SUFFIX,emby.pro,🎬 Emby
-  - DOMAIN-SUFFIX,xiaoyi.one,🎬 Emby
-  - DOMAIN-SUFFIX,embymv.me,🎬 Emby
-  - DOMAIN-SUFFIX,infinityfly.top,🎬 Emby
-  - DOMAIN-SUFFIX,lucasmedia.top,🎬 Emby
-  - DOMAIN-SUFFIX,nvidia.rip,🎬 Emby
-  - DOMAIN-SUFFIX,emby77.org,🎬 Emby
-  - DOMAIN-SUFFIX,20120714.xyz,🎬 Emby
-  - DOMAIN-SUFFIX,gugumedia.link,🎬 Emby
-  - DOMAIN-SUFFIX,dicarerhome.com,🎬 Emby
-  - DOMAIN,starcat.eu.org,🎬 Emby
-  - DOMAIN,catlinks.co.uk,🎬 Emby
-  - DOMAIN-SUFFIX,emby.ws,🎬 Emby
-  - DOMAIN-SUFFIX,ohhhh.org,🎬 Emby
-  - DOMAIN-SUFFIX,cn2gias.uk,🎬 Emby
-  - DOMAIN,emby.aca.best,🎬 Emby
-  - DOMAIN,porn.aca.best,🎬 Emby
-  - DOMAIN-SUFFIX,ju.dog,🎬 Emby
-  - DOMAIN,push-kr.cfprefer3.xyz,🎬 Emby
-  - DOMAIN,ntrrr.am.sb,🎬 Emby
-  - DOMAIN,stream.synn.cc,🎬 Emby
-  - DOMAIN,notnetflix.cos.cat,🎬 Emby
-
-##其它##
-  - DOMAIN-KEYWORD,steam,DIRECT #steam
+DOMAIN-SUFFIX,emby.nexitally.com
+DOMAIN-SUFFIX,emby.cjpc.cc
+DOMAIN-SUFFIX,emby.flowercloud.yt
+DOMAIN-SUFFIX,emby.maying.club
+DOMAIN-SUFFIX,emby.mdss.cloud
+DOMAIN-SUFFIX,emby.ytoo.li
+DOMAIN-SUFFIX,embyserver.ga
+DOMAIN-SUFFIX,emby.prprcloud.com
+DOMAIN-SUFFIX,emby.nyancat.net
+DOMAIN-SUFFIX,emby.plusmedia.site
+DOMAIN-SUFFIX,emby-cf.plusmedia.site
+DOMAIN-SUFFIX,emby-sg.plusmedia.site
+DOMAIN-SUFFIX,emby.xeton.dev
+DOMAIN-SUFFIX,jellyfin.xeton.dev
+DOMAIN-SUFFIX,movie.xeton.dev
+DOMAIN-SUFFIX,servers.xeton.dev
+DOMAIN-SUFFIX,emby.otakudrive.life
+DOMAIN-SUFFIX,emby2.otakudrive.life
+DOMAIN-SUFFIX,agahk1.jmsooo.com
+DOMAIN-SUFFIX,agasg1.jmsooo.com
+DOMAIN-SUFFIX,agajp1.jmsooo.com
+DOMAIN-SUFFIX,aws.jmsooo.com
+DOMAIN-SUFFIX,ntt1.jmsooo.com
+DOMAIN-SUFFIX,hinet.jmsooo.com
+DOMAIN-SUFFIX,cf1.jmsooo.com
+DOMAIN-SUFFIX,pornemby.club
+DOMAIN-SUFFIX,emby.immtel.com
+DOMAIN-SUFFIX,cf.odysseyplus.site
+DOMAIN-SUFFIX,agahk.odysseyplus.site
+DOMAIN-SUFFIX,agasg.odysseyplus.site
+DOMAIN-SUFFIX,ru.odysseyplus.site
+DOMAIN-SUFFIX,line.emby.men
+DOMAIN-SUFFIX,emby.run
+DOMAIN-SUFFIX,emby.plusmedia.site
+DOMAIN-SUFFIX,emby-sg.plusmedia.site
+DOMAIN-SUFFIX,emby-cf.plusmedia.site
+DOMAIN-SUFFIX,emby.xeton.dev
+DOMAIN-SUFFIX,jellyfin.xeton.dev
+DOMAIN-SUFFIX,movie.xeton.dev
+DOMAIN-SUFFIX,servers.xeton.dev
+DOMAIN-SUFFIX,jmsooo.com
+DOMAIN-SUFFIX,cf.jmsooo.com
+DOMAIN-SUFFIX,hk.jmsooo.com
+DOMAIN-SUFFIX,sg.jmsooo.com
+DOMAIN-SUFFIX,emby.wtf
+DOMAIN-SUFFIX,pub1back.emby.wtf
+DOMAIN-SUFFIX,pub2back.emby.wtf
+DOMAIN-SUFFIX,pub3back.emby.wtf
+DOMAIN-SUFFIX,pub1.emby.wtf
+DOMAIN-SUFFIX,pub2.emby.wtf
+DOMAIN-SUFFIX,pub3.emby.wtf
+DOMAIN-SUFFIX,embyclub.com
+DOMAIN-SUFFIX,az-hk.embyclub.com
+DOMAIN-SUFFIX,azsgp.embyclub.com
+DOMAIN-SUFFIX,charontv.com
+DOMAIN-SUFFIX,emby.p-p.men
+DOMAIN-SUFFIX,emby.aiyowei.ml
+DOMAIN-SUFFIX,poloemby.xyz
+DOMAIN-SUFFIX,pololine.ml
+DOMAIN-SUFFIX,gfwemby.org
+DOMAIN-SUFFIX,cc.ccemby.tk
+DOMAIN-SUFFIX,direct.nebula-emby.com
+DOMAIN-SUFFIX,ccemby.tk
+DOMAIN-SUFFIX,embyplus.club
+DOMAIN-SUFFIX,speedx.one
+DOMAIN-SUFFIX,embymv.tk
+DOMAIN-SUFFIX,bddup.com
+DOMAIN-SUFFIX,emby.cl
+DOMAIN-SUFFIX,emby.ml
+DOMAIN-SUFFIX,nivod4.tv
+DOMAIN-SUFFIX,newpppp.com
+DOMAIN-SUFFIX,freetz.top
+DOMAIN-SUFFIX,newwan.top
+DOMAIN-SUFFIX,shuipo.lol
+DOMAIN-SUFFIX,dicarerhome.com
+DOMAIN-SUFFIX,emby77.cf
+IP-CIDR,188.172.228.49/32
+IP-CIDR,202.61.255.248/32
+DOMAIN-SUFFIX,embytv.cf
+DOMAIN-SUFFIX,zox.show
+DOMAIN-SUFFIX,acemby.org
+DOMAIN-SUFFIX,bili.rip
+DOMAIN-SUFFIX,ju.dog
+DOMAIN-SUFFIX,misty.ltd
+DOMAIN-SUFFIX,ednovas.org
+DOMAIN-SUFFIX,deja-vu.beauty
+DOMAIN-SUFFIX,studyfun.live
+DOMAIN-SUFFIX,charontv.com
+DOMAIN-SUFFIX,gtlx.org
+DOMAIN-SUFFIX,9191001.xyz
+DOMAIN-SUFFIX,carlos.trade
+DOMAIN-SUFFIX,agon.cf
+DOMAIN-SUFFIX,goodisp.org
+DOMAIN-SUFFIX,emby77.org
+DOMAIN-SUFFIX,mius.uk
+DOMAIN-SUFFIX,emby.eu.org
+DOMAIN-SUFFIX,wiri.tk
+DOMAIN-SUFFIX,285286.xyz
+DOMAIN-SUFFIX,zi0.icu
+DOMAIN-SUFFIX,bangumi.ca
+DOMAIN-SUFFIX,emby.kim
+DOMAIN-SUFFIX,4545.cf
+DOMAIN-SUFFIX,ggtt.cf
+DOMAIN-SUFFIX,mulgore.net
+DOMAIN-SUFFIX,emby.pro
+DOMAIN-SUFFIX,xiaoyi.one
+DOMAIN-SUFFIX,embymv.me
+DOMAIN-SUFFIX,infinityfly.top
+DOMAIN-SUFFIX,lucasmedia.top
+DOMAIN-SUFFIX,nvidia.rip
+DOMAIN-SUFFIX,emby77.org
+DOMAIN-SUFFIX,20120714.xyz
+DOMAIN-SUFFIX,gugumedia.link
+DOMAIN-SUFFIX,dicarerhome.com
+DOMAIN-SUFFIX,starcat.eu.org
+DOMAIN-SUFFIX,catlinks.co.uk
+DOMAIN-SUFFIX,emby.ws
+DOMAIN-SUFFIX,ohhhh.org
+DOMAIN-SUFFIX,cn2gias.uk
+DOMAIN-SUFFIX,emby.aca.best
+DOMAIN-SUFFIX,porn.aca.best
+DOMAIN-SUFFIX,ju.dog
+DOMAIN-SUFFIX,push-kr.cfprefer3.xyz
+DOMAIN-SUFFIX,ntrrr.am.sb
+DOMAIN-SUFFIX,stream.synn.cc
+DOMAIN-SUFFIX,notnetflix.cos.cat
 
 #关键词
-  #- DOMAIN
+  #- DOMAIN-SUFFIX
   #- DOMAIN-SUFFIX
   #DIRECT
   #Final
